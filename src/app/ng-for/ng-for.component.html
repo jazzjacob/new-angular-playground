@@ -1,0 +1,10 @@
+<div class="container">
+  <h2>ngFor</h2>
+  <p>Output elements with the help of arrays</p>
+  <button (click)="addBox()">+</button>
+  <button (click)="removeBox()">-</button>
+  <div class="box-container">
+    <div *ngFor="let box of boxes" class="box"></div>
+  </div>
+  
+</div>

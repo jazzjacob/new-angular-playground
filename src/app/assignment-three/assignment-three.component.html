@@ -1,0 +1,13 @@
+<div class="container">
+  <h2>Assignment 3 - Directives</h2>
+  <button (click)="buttonClicked()">
+    <span *ngIf="!textIsVisible">View text</span>
+    <span *ngIf="textIsVisible">Hide</span>
+  </button>
+  <div class="text-container">
+    <p *ngIf="textIsVisible">This is some cool text indeed.</p>
+  </div>
+  <p [ngClass]="{cool: i > 3}" *ngFor="let click of buttonClicks; let i = index">
+    {{ click }}
+  </p>
+</div>

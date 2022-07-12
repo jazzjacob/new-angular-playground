@@ -1,0 +1,6 @@
+<div class="game-control-container">
+  <div class="buttons-container">
+    <button (click)="onStartGame()" *ngIf="!gameIsInSession">start</button>
+    <button (click)="onPauseGame()">pause</button>
+  </div>
+</div>

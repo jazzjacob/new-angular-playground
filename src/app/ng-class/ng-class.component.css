@@ -1,0 +1,35 @@
+.container {
+  width: fit-content;
+  height: fit-content;
+  padding: 2rem;
+  margin: 1rem 0;
+  background-color: #886396;
+  color: #f3d4ff; 
+  font-family: helvetica;
+}
+
+.supreme {
+  color: white;
+  background-color: red;
+  padding: 1rem;
+  font-family: Futura;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.plain {
+  color: black;
+  background-color: white;
+  padding: 1rem;
+  font-family: serif;
+}
+
+.ikea {
+  background-color: dodgerblue;
+  color: gold;
+  font-family: Verdana;
+  text-transform: uppercase;
+  padding: 1rem;
+  font-weight: bold;
+}

@@ -1,0 +1,19 @@
+.container {
+  background-color: #a7d6fc;
+  height: fit-content;
+  width: fit-content;
+  padding: 2rem;
+  margin: 2rem 0;
+  font-family: Verdana;
+}
+
+.output-field {
+  height: 100px;
+  min-width: 300px;
+  background-color: #e4e9f0;
+}
+
+h2, h3 {
+  font-size: 1rem;
+}
+

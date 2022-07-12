@@ -1,0 +1,10 @@
+<div class="container">
+  <h2>assignment 4</h2>
+  <p *ngIf="gameHasStarted">game has started</p>
+  <app-game-control
+    (intervalFired)="onIntervalFired($event)"
+    (gameHasStartedEmitter)="onGameHasStartedEmitter($event)">
+  </app-game-control>
+  <app-odd *ngFor="let oddNumber of oddNumbers" [number]="oddNumber"></app-odd>
+  <app-even *ngFor="let evenNumber of evenNumbers" [number]="evenNumber"></app-even>
+</div>

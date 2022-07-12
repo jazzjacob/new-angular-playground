@@ -1,0 +1,35 @@
+.container {
+  margin: 1rem 0;
+  width: fit-content;
+  height: fit-content;
+  background-color: black;
+  padding: 2rem;
+}
+
+h2 {
+  color: white;
+  font-family: Futura
+}
+
+h3 {
+  color: white;
+  font-family: futura;
+  font-weight: lighter
+}
+
+
+input {
+  width: 150px;
+  margin: 8px;
+  font-family: monospace;
+}
+
+p {
+  font-family: Futura;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+}

@@ -1,0 +1,23 @@
+.directive-playing-container {
+  width: 500px;
+  height: 400px;
+  background-color: gold;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin: 12px;
+}
+
+.red {
+  background-color: red;
+}
+
+.info-text {
+  font-family: monospace;
+  font-size: 10px;
+}

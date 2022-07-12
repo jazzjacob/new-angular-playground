@@ -1,0 +1,37 @@
+.container {
+  width: fit-content;
+  height: fit-content;
+  background-color: #cff5cb;
+  color: #435741;
+  padding: 1rem;
+  font-family: Helvetica;
+}
+
+button {
+  width: 30px;
+  height: 30px;
+  background-color: darkgray;
+  color: white;
+  border: none;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+.box-container {
+  display: flex;
+  margin: 1rem 0;
+  width: 130px;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: #435741;
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  margin: 4px 4px 0 0;
+}

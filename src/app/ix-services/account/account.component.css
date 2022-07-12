@@ -1,0 +1,12 @@
+.row {
+  background-color: gray;
+  color: white;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+h5 {
+  font-size: 18px;
+  margin: 0;
+  padding-top: 6px;
+}

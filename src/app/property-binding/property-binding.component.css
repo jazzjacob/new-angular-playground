@@ -1,0 +1,10 @@
+.container {
+  height: fit-content;
+  width: fit-content;
+  padding: 2rem;
+  background-color: lightgray;
+}
+
+* {
+  font-family: Georgia;
+}

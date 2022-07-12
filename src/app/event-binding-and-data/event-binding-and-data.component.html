@@ -1,0 +1,12 @@
+<div class="container">
+  <h2>Passing and using data with event-binding</h2>
+  <input
+    type="text"
+    placeholder="Write anything here..."
+    (input)="updateOutput($event)"
+  />
+  <div class="output-field">
+    <h3>Output:</h3>
+    <p>{{ textOutput }}</p>
+  </div>
+</div>

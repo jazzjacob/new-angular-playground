@@ -1,0 +1,9 @@
+.container {
+  background-color: #b57273;
+  color: white;
+  padding: 2rem;
+  width: fit-content;
+  height: fit-content;
+  margin: 2rem 0;
+  font-family: Futura;
+}

@@ -1,0 +1,15 @@
+ul {
+    background-color: lightgray;
+    width: fit-content;
+    padding: 0.2rem 2rem;
+    list-style: none;
+  }
+
+  ul h2, ul p {
+    margin: 0;
+  }
+
+  li {
+    margin-bottom: 1rem;
+  }
+

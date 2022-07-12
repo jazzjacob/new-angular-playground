@@ -1,0 +1,29 @@
+.container {
+  width: fit-content;
+  height: fit-content;
+  background-color: #ffc4e9;
+  color: #963e4a;
+  padding: 1rem;
+  font-family: Helvetica;
+  margin: 1rem 0;
+}
+
+.text-container {
+  margin: 1rem 0;
+  height: 25px;
+}
+
+button {
+  padding: 6px;
+}
+
+.cool {
+  background-color: dodgerblue;
+  color: white;
+  padding: 4px;
+  width: fit-content;
+}
+
+.plain {
+  color: black;
+}

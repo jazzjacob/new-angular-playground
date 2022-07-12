@@ -1,0 +1,8 @@
+<div class="box">
+  <h2>(event)-binding and *ngIf</h2>
+  <button (click)="onButtonClick()">
+    <span *ngIf="!buttonIsClicked">Press here for thingy</span>
+    <span *ngIf="buttonIsClicked">Remove thingy</span>
+  </button>
+  <p *ngIf="buttonIsClicked" class="suh">suh dude</p>
+</div>

@@ -1,0 +1,12 @@
+<div class="container">
+  <h2>Assignment 2</h2>
+  <input
+    placeholder="Enter username here..."
+    type="text"
+    [(ngModel)]="username"
+    (input)="settingUsername($event)"
+  />
+  <p>Username: {{ username }}</p>
+  <button [disabled]="!usernameIsEntered" (click)="resetUsername()">Reset username</button>
+
+</div>

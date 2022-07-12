@@ -1,0 +1,18 @@
+<div class="container">
+  <h2>ngClass</h2>
+  <p>Dynamcially update class</p>
+
+  <!-- Max's solution: -->
+  <p [ngClass]="{
+    plain: checkClass('plain'),
+    supreme: checkClass('supreme'),
+    ikea: checkClass('ikea')
+  }">Alright, alright, alright</p>
+
+  <!-- My simplified solution: -->
+  <p [ngClass]="chosenClass">Alright, alright, alright</p>
+
+  <button (click)="changeClass('supreme')">Supreme</button>
+  <button (click)="changeClass('ikea')">IKEA</button>
+  <button (click)="changeClass('plain')">Plain</button>
+</div>
