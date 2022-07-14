@@ -34,6 +34,7 @@ import { NgStyleComponent } from './ng-style/ng-style.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgForComponent } from './ng-for/ng-for.component';
 import { AssignmentThreeComponent } from './assignment-three/assignment-three.component';
+import { ProjectComponent } from './project/project/project.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +65,8 @@ import { AssignmentThreeComponent } from './assignment-three/assignment-three.co
     NgStyleComponent,
     NgClassComponent,
     NgForComponent,
-    AssignmentThreeComponent
+    AssignmentThreeComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
