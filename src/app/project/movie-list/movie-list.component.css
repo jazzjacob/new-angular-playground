@@ -1,8 +1,7 @@
 .container {
   width: fit-content;
   height: fit-content;
+  background-color: #ffb8b3;
+  color: #784882;
   padding: 1rem;
-  background-color: darkgray;
-  color: white;
-  font-family: Helvetica;
 }

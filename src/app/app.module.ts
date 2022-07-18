@@ -35,6 +35,7 @@ import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgForComponent } from './ng-for/ng-for.component';
 import { AssignmentThreeComponent } from './assignment-three/assignment-three.component';
 import { ProjectComponent } from './project/project/project.component';
+import { MovieListComponent } from './project/movie-list/movie-list.component';
 
 @NgModule({
   declarations: [
@@ -66,7 +67,8 @@ import { ProjectComponent } from './project/project/project.component';
     NgClassComponent,
     NgForComponent,
     AssignmentThreeComponent,
-    ProjectComponent
+    ProjectComponent,
+    MovieListComponent
   ],
   imports: [
     BrowserModule,

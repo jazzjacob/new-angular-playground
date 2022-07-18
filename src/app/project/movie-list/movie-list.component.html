@@ -1,0 +1,14 @@
+<div class="container">
+  <h2>Movie list</h2>
+  <hr />
+  <div *ngFor="let movie of movies">
+    <h3>{{ movie.title }}</h3>
+    <p>{{ movie.director }}</p>
+    <p>{{ movie.cinematographer }}</p>
+    <hr />
+  </div>
+  <div *ngFor="let actor of actors">
+    <h3>{{ actor.name }}</h3>
+    <p>Age: {{ actor.age }}</p>
+  </div>
+</div>
