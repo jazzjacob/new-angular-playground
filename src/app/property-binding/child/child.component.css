@@ -1,0 +1,7 @@
+.container {
+  min-width: 50px;
+  min-height: 30px;
+  background-color: linen;
+  padding: 0.2rem 0.5rem;
+  color: black;
+}

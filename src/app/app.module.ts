@@ -36,6 +36,8 @@ import { NgForComponent } from './ng-for/ng-for.component';
 import { AssignmentThreeComponent } from './assignment-three/assignment-three.component';
 import { ProjectComponent } from './project/project/project.component';
 import { MovieListComponent } from './project/movie-list/movie-list.component';
+import { ParentComponent } from './property-binding/parent/parent.component';
+import { ChildComponent } from './property-binding/child/child.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +70,9 @@ import { MovieListComponent } from './project/movie-list/movie-list.component';
     NgForComponent,
     AssignmentThreeComponent,
     ProjectComponent,
-    MovieListComponent
+    MovieListComponent,
+    ParentComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,

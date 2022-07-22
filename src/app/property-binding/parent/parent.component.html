@@ -1,0 +1,8 @@
+<div class="container">
+  <h3>Parent</h3>
+  <h4>Cool instagram accounts:</h4>
+  <p *ngFor="let account of instagramAccounts">{{ account.realName }}</p>
+  <app-child
+    *ngFor="let account of instagramAccounts"
+    [account]="account"></app-child>
+</div>
