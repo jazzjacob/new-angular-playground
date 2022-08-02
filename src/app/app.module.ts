@@ -38,6 +38,8 @@ import { ProjectComponent } from './project/project/project.component';
 import { MovieListComponent } from './project/movie-list/movie-list.component';
 import { ParentComponent } from './property-binding/parent/parent.component';
 import { ChildComponent } from './property-binding/child/child.component';
+import { EventParentComponent } from './event-binding-and-data/event-parent/event-parent.component';
+import { EventChildComponent } from './event-binding-and-data/event-child/event-child.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +74,9 @@ import { ChildComponent } from './property-binding/child/child.component';
     ProjectComponent,
     MovieListComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    EventParentComponent,
+    EventChildComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,5 @@
+<div class="container">
+  <h3>Parent</h3>
+  <p class="textElement" *ngFor="let textElement of textElements">{{ textElement }}</p>
+  <app-event-child (textCreated)="onTextAdded($event)"></app-event-child>
+</div>

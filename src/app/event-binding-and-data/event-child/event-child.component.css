@@ -1,0 +1,6 @@
+.container {
+  width: 100%;
+  background-color: white;
+  padding: 6px;
+  box-sizing: border-box;
+}

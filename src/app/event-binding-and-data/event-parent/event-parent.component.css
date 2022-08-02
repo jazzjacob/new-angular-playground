@@ -1,0 +1,11 @@
+.container {
+  width: 400px;
+  background-color: #e4e9f0;
+  padding: 6px;
+}
+
+.textElement {
+  font-family: monospace;
+  color: gray;
+  
+}
