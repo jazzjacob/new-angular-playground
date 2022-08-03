@@ -20,6 +20,10 @@ export class AssignmentFourComponent implements OnInit {
   }
 
   onGameHasStartedEmitter(inputBoolean: boolean) {
+    if (inputBoolean === false) {
+      this.oddNumbers = [];
+      this.evenNumbers = []; 
+    }
     this.gameHasStarted = inputBoolean;
     console.dir(inputBoolean);
   }

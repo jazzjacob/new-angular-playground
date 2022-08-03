@@ -10,6 +10,7 @@ export class GameControlComponent implements OnInit {
   @Output() gameHasStartedEmitter = new EventEmitter<boolean>();
 
   gameIsInSession = false;
+  gameHasStarted = false;
 
   interval: any;
   numberCount = 0;
@@ -27,11 +28,19 @@ export class GameControlComponent implements OnInit {
 
     this.gameHasStartedEmitter.emit(true);
     this.gameIsInSession = true;
+    this.gameHasStarted = true;
   }
 
   onPauseGame() {
     clearInterval(this.interval);
     this.gameIsInSession = false;
+  }
+
+  onEndGame() {
+    clearInterval(this.interval);
+    this.gameIsInSession = false;
+    this.gameHasStartedEmitter.emit(false);
+    this.gameHasStarted = false;
   }
 
 }
