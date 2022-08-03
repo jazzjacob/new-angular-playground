@@ -40,6 +40,7 @@ import { ParentComponent } from './property-binding/parent/parent.component';
 import { ChildComponent } from './property-binding/child/child.component';
 import { EventParentComponent } from './event-binding-and-data/event-parent/event-parent.component';
 import { EventChildComponent } from './event-binding-and-data/event-child/event-child.component';
+import { ViewchildComponent } from './viewchild/viewchild.component';
 
 @NgModule({
   declarations: [
@@ -76,7 +77,8 @@ import { EventChildComponent } from './event-binding-and-data/event-child/event-
     ParentComponent,
     ChildComponent,
     EventParentComponent,
-    EventChildComponent
+    EventChildComponent,
+    ViewchildComponent
   ],
   imports: [
     BrowserModule,

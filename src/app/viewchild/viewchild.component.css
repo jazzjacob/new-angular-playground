@@ -1,0 +1,15 @@
+.container {
+  width: 500px;
+  background-color: #7dad8a;
+  box-sizing: border-box;
+  padding: 1rem;
+  color: #d1ffd9;
+  font-family: Verdana;
+}
+
+.replaceableText {
+  color: pink;
+  background-color: gray;
+  width: fit-content;
+  padding: 8px;
+}
