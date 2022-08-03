@@ -1,0 +1,6 @@
+.container {
+  box-sizing: border-box;
+  background-color: #82a3ab;
+  width: fit-content;
+  padding: 8px;
+}

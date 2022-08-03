@@ -41,6 +41,8 @@ import { ChildComponent } from './property-binding/child/child.component';
 import { EventParentComponent } from './event-binding-and-data/event-parent/event-parent.component';
 import { EventChildComponent } from './event-binding-and-data/event-child/event-child.component';
 import { ViewchildComponent } from './viewchild/viewchild.component';
+import { NgContentComponent } from './ng-content/ng-content.component';
+import { InsertStuffHereComponent } from './ng-content/insert-stuff-here/insert-stuff-here.component';
 
 @NgModule({
   declarations: [
@@ -78,7 +80,9 @@ import { ViewchildComponent } from './viewchild/viewchild.component';
     ChildComponent,
     EventParentComponent,
     EventChildComponent,
-    ViewchildComponent
+    ViewchildComponent,
+    NgContentComponent,
+    InsertStuffHereComponent
   ],
   imports: [
     BrowserModule,
