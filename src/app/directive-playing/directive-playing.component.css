@@ -1,9 +1,9 @@
 .directive-playing-container {
-  width: 500px;
-  height: 400px;
+  width: fit-content;
   background-color: gold;
   margin: 1rem 0;
   padding: 1rem;
+  box-sizing: border-box;
 }
 
 .box {
@@ -20,4 +20,11 @@
 .info-text {
   font-family: monospace;
   font-size: 10px;
+}
+
+.text-styling {
+  font-family: Helvetica;
+  font-weight: bold;
+  padding: 8px;
+  border: 1px solid gray;
 }

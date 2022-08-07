@@ -43,6 +43,7 @@ import { EventChildComponent } from './event-binding-and-data/event-child/event-
 import { ViewchildComponent } from './viewchild/viewchild.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
 import { InsertStuffHereComponent } from './ng-content/insert-stuff-here/insert-stuff-here.component';
+import { TextStylingDirective } from './directive-playing/text-styling.directive';
 
 @NgModule({
   declarations: [
@@ -82,7 +83,8 @@ import { InsertStuffHereComponent } from './ng-content/insert-stuff-here/insert-
     EventChildComponent,
     ViewchildComponent,
     NgContentComponent,
-    InsertStuffHereComponent
+    InsertStuffHereComponent,
+    TextStylingDirective
   ],
   imports: [
     BrowserModule,
