@@ -14,5 +14,5 @@ export class SectionViiComponent {
   oddNumbers = [1, 3, 5];
   evenNumbers = [2, 4];
   onlyOdd = false;
-  value = 21;
+  value = 10;
 }

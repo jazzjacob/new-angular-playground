@@ -27,6 +27,7 @@ import { InactiveUsersComponent } from './assignment-five/inactive-users/inactiv
 import { AccountsService } from './ix-services/accounts.service';
 import { LoggingService } from './ix-services/logging.service';
 import { UsersService } from './assignment-five/users.service';
+import { MovieService } from './project/movie.service'
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import { EventBindingAndDataComponent } from './event-binding-and-data/event-binding-and-data.component';
 import { AssignmentTwoComponent } from './assignment-two/assignment-two.component';
@@ -94,7 +95,8 @@ import { TextStylingDirective } from './directive-playing/text-styling.directive
   providers: [
     AccountsService,
     LoggingService,
-    UsersService
+    UsersService,
+    MovieService
   ],
   bootstrap: [AppComponent]
 })
