@@ -45,6 +45,7 @@ import { ViewchildComponent } from './viewchild/viewchild.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
 import { InsertStuffHereComponent } from './ng-content/insert-stuff-here/insert-stuff-here.component';
 import { TextStylingDirective } from './directive-playing/text-styling.directive';
+import { MovieDetailsViewComponent } from './project/movie-details-view/movie-details-view.component';
 
 @NgModule({
   declarations: [
@@ -85,7 +86,8 @@ import { TextStylingDirective } from './directive-playing/text-styling.directive
     ViewchildComponent,
     NgContentComponent,
     InsertStuffHereComponent,
-    TextStylingDirective
+    TextStylingDirective,
+    MovieDetailsViewComponent
   ],
   imports: [
     BrowserModule,

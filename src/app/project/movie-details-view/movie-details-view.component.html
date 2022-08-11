@@ -1,0 +1,10 @@
+<div
+  *ngIf="selectedMovie"
+  class="container"
+>
+  <h3>Detailed info</h3>
+  <hr />
+  <p class="movie-title">{{ selectedMovie.title }}</p>
+  <p><span class="crew-title">Director</span> {{ selectedMovie.director }}</p>
+  <p><span class="crew-title">Cinematographer</span> {{ selectedMovie.cinematographer }}</p>
+</div>

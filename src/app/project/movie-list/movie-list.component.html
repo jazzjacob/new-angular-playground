@@ -2,13 +2,10 @@
   <h2>Movie list</h2>
   <hr />
   <div *ngFor="let movie of movies">
-    <h3>{{ movie.title }}</h3>
-    <p>{{ movie.director }}</p>
-    <p>{{ movie.cinematographer }}</p>
-    <hr />
+    <a href="#" (click)="onMovieSelected(movie)"><h3>{{ movie.title }}</h3></a>
   </div>
+  <hr />
   <div *ngFor="let actor of actors">
-    <h3>{{ actor.name }}</h3>
-    <p>Age: {{ actor.age }}</p>
+    <a href="#"><h3>{{ actor.name }}</h3></a>
   </div>
 </div>

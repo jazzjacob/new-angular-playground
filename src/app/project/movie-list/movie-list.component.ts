@@ -10,17 +10,24 @@ import { MovieService } from '../movie.service'
 })
 export class MovieListComponent implements OnInit {
   constructor(private movieService: MovieService) { }
+
+  selectedMovie: Movie;
+  selectedActor: Actor;
   
   movies: Movie[] = [];
+  actors: Actor[] = [];
 
-  actors: Actor[] = [
-    new Actor('Bill Murray', 72),
-    new Actor('Greta Gerwig', 38)
-  ];
+  onMovieSelected(movie: Movie) {
+    this.selectedMovie = movie;
+    this.movieService.movieSelected.emit(movie);
+    console.log('Movie selected ')
+    console.log(movie)
+  }
 
 
   ngOnInit() {
     this.movies = this.movieService.getMovies();
+    this.actors = this.movieService.getActors();
   }
 
 }

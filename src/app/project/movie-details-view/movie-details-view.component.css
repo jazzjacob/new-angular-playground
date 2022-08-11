@@ -1,0 +1,18 @@
+.container {
+  width: fit-content;
+  height: fit-content;
+  background-color: #ffb8b3;
+  color: #784882;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.movie-title {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.crew-title {
+  font-weight: bold;
+  margin-right: 1rem;
+}
