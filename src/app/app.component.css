@@ -1,0 +1,36 @@
+header {
+  padding-left: 0.5rem;
+  font-family: Helvetica;
+}
+
+.navigation-list {
+  list-style: none;
+  font-family: Helvetica;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.navigation-list a {
+  text-decoration: none;
+  color: dodgerblue;
+  margin-right: 1rem;
+}
+
+.navigation-list a:visited {
+  color: default;
+}
+
+.navigation-list a:hover {
+  color: darkblue;
+}
+
+.navigation-list a.active {
+  color: gray;
+  padding-bottom: 3px;
+  border-bottom: 2px solid gray;
+}
+
+.navigation-list a.active:hover {
+  cursor: default;
+}
