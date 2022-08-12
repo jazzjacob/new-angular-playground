@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { MoviesListComponent } from './movies-list/movies-list.component';
@@ -46,6 +47,12 @@ import { NgContentComponent } from './ng-content/ng-content.component';
 import { InsertStuffHereComponent } from './ng-content/insert-stuff-here/insert-stuff-here.component';
 import { TextStylingDirective } from './directive-playing/text-styling.directive';
 import { MovieDetailsViewComponent } from './project/movie-details-view/movie-details-view.component';
+import { HomeComponent } from './home/home.component';
+
+const appRoutes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'project', component: ProjectComponent }
+];
 
 @NgModule({
   declarations: [
@@ -87,11 +94,13 @@ import { MovieDetailsViewComponent } from './project/movie-details-view/movie-de
     NgContentComponent,
     InsertStuffHereComponent,
     TextStylingDirective,
-    MovieDetailsViewComponent
+    MovieDetailsViewComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(appRoutes)
 
   ],
   providers: [
