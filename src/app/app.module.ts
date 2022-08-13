@@ -48,10 +48,12 @@ import { InsertStuffHereComponent } from './ng-content/insert-stuff-here/insert-
 import { TextStylingDirective } from './directive-playing/text-styling.directive';
 import { MovieDetailsViewComponent } from './project/movie-details-view/movie-details-view.component';
 import { HomeComponent } from './home/home.component';
+import { SecretPageComponent } from './secret-page/secret-page.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'project', component: ProjectComponent }
+  { path: 'project', component: ProjectComponent },
+  { path: 'secret-page', component: SecretPageComponent }
 ];
 
 @NgModule({
@@ -95,7 +97,8 @@ const appRoutes: Routes = [
     InsertStuffHereComponent,
     TextStylingDirective,
     MovieDetailsViewComponent,
-    HomeComponent
+    HomeComponent,
+    SecretPageComponent
   ],
   imports: [
     BrowserModule,

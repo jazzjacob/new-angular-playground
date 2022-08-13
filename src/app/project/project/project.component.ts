@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { MovieService } from '../movie.service'
+import { Router } from '@angular/router';
+
+import { MovieService } from '../movie.service';
 
 @Component({
   selector: 'app-project',
@@ -8,9 +10,13 @@ import { MovieService } from '../movie.service'
 })
 export class ProjectComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  onSecretPageButtonClick() {
+    this.router.navigate(['/secret-page']);
   }
 
 }

@@ -6,3 +6,23 @@
   color: white;
   font-family: Helvetica;
 }
+
+.info-text {
+  color: gray;
+  font-family: monospace;
+}
+
+button.secret {
+  margin-top: 2rem;
+  color: white;
+  background-color: dodgerblue;
+  outline: none;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+}
+
+button.secret:hover {
+  background-color: #0068D7;
+  cursor: pointer;
+}
