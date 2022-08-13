@@ -53,7 +53,8 @@ import { SecretPageComponent } from './secret-page/secret-page.component';
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'project', component: ProjectComponent },
-  { path: 'secret-page', component: SecretPageComponent }
+  { path: 'secret-page', component: SecretPageComponent },
+  { path: 'secret-page/:name', component: SecretPageComponent }
 ];
 
 @NgModule({
