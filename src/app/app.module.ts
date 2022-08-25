@@ -49,6 +49,7 @@ import { TextStylingDirective } from './directive-playing/text-styling.directive
 import { MovieDetailsViewComponent } from './project/movie-details-view/movie-details-view.component';
 import { HomeComponent } from './home/home.component';
 import { SecretPageComponent } from './secret-page/secret-page.component';
+import { FormExampleComponent } from './form-example/form-example.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -99,13 +100,13 @@ const appRoutes: Routes = [
     TextStylingDirective,
     MovieDetailsViewComponent,
     HomeComponent,
-    SecretPageComponent
+    SecretPageComponent,
+    FormExampleComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     RouterModule.forRoot(appRoutes)
-
   ],
   providers: [
     AccountsService,

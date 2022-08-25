@@ -5,3 +5,11 @@
   color: #784882;
   padding: 1rem;
 }
+
+.list-item:hover {
+  cursor: pointer;
+}
+
+.list-item {
+  text-decoration: underline;
+}
