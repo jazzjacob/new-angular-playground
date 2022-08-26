@@ -1,0 +1,12 @@
+.container {
+  background-color: lightblue;
+  width: fit-content;
+  height: fit-content;
+  padding: 1rem;
+  font-family: Helvetica;
+  color: darkred;
+}
+
+label {
+  margin-right: 6px;
+}

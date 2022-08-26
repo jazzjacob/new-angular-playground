@@ -1,1 +1,26 @@
-<p>form-example works!</p>
+<div class="container">
+  <h2>Forms</h2>
+  <form (ngSubmit)="onSubmit(form)" #form="ngForm">
+    <p>
+      <label for="name">Name</label>
+      <br/>
+      <input
+        id="name"
+        type="text"
+        ngModel
+        name="name"
+      />
+    </p>
+    <p>
+      <label for="email">Email</label>
+      <br/>
+      <input
+        type="email"
+        id="email"
+        ngModel
+        name="email"
+      />
+    </p>
+    <button type="submit">Submit</button>
+  </form>
+</div>
